@@ -1,0 +1,235 @@
+@import "./font.css";
+
+footer {
+  border-top: 1px hsla(0, 0%, 50%, 0.134) solid;
+  box-shadow: 0px 0px 1px hsla(0, 0%, 50%, 0.585);
+  bottom: 0;
+  background-color: var(--main-bg-color);
+}
+
+.margin_footer {
+  width: 100%;
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+}
+
+.logo_totop {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding: 30px;
+}
+
+.totop {
+  padding: 0.5rem 1rem;
+  border: 2px solid hsla(0, 0%, 79%, 0.519);
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  text-align: center;
+}
+
+.totop a:any-link {
+  text-decoration: none;
+  color: hsl(0, 0%, 49%);
+}
+
+.telephone {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 15px;
+  p {
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+  }
+  .khat2 {
+    width: 1px;
+    height: 15px;
+    background-color: hwb(0 0% 100% / 0.369);
+  }
+}
+
+.options {
+  padding: 30px;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  a {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    p {
+      color: rgb(63, 64, 100);
+      font-size: 11px;
+    }
+  }
+}
+.footer_nav {
+  padding-top: 15px;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+}
+
+.footer_nav_flex {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-self: flex-start;
+  text-align: right;
+  gap: 12px;
+  h2 {
+    font-size: 16px;
+    font-family: "Iranyekan bold";
+    color: rgb(63, 64, 100);
+  }
+  a {
+    color: rgb(129, 133, 139);
+    font-size: 14px;
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row-reverse nowrap;
+  svg {
+    opacity: 0.5;
+  }
+}
+
+.email-submit {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  input {
+    width: 260px;
+    height: 48px;
+    background-color: #f0f0f1;
+    border-radius: 8px;
+    border: none;
+    direction: rtl;
+    padding: 8px;
+    color: rgb(63, 64, 50);
+    font-family: "Iranyekan medium";
+    font-size: 15px;
+  }
+  button {
+    background-color: #d5d5d5;
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    color: white;
+    font-family: "Iranyekan medium";
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+  }
+}
+
+.footer_nav_flex a:any-link {
+  text-decoration: none;
+  color: #81858b;
+}
+
+.app {
+  padding: 8px 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #3c4b6d;
+}
+
+.first-app-section {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: white;
+    font-family: "Iranyekan medium";
+    font-size: 21px;
+  }
+}
+.second-app-section {
+  display: flex;
+  column-gap: 15px;
+  flex-flow: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.more-app {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.end-links {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f1;
+}
+.top-links {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+  a {
+    border: 1px solid #e7e7e7;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 12.5%;
+    height: 80px;
+    img {
+      width: 35%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+.down-links {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+  a {
+    border: 1px solid #e7e7e7;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 16.7%;
+    height: 80px;
+    img {
+      width: 35%;
+      height: auto;
+      object-fit: fill;
+    }
+  }
+}
