@@ -326,6 +326,7 @@ a {
 }
 
 .category {
+  width:100%;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -334,13 +335,15 @@ a {
 }
 
 .category-items {
+  width:100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
   img {
-    width: 100px;
+    width: 100%;
+    max-width:100px;
     height: 100px;
   }
   p {
