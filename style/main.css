@@ -357,6 +357,8 @@ a {
     width: 100%;
     max-width: 100px;
     height: auto;
+    max-width: 100px;
+    height: 100px;
   }
   p {
     font-size: 12px;
@@ -564,11 +566,10 @@ a {
 }
 
 @media screen and (max-width: 1025px) {
-
-  .mobile-header{
+  .mobile-header {
     display: block;
   }
-  header{
+  header {
     display: none;
   }
   .first {
