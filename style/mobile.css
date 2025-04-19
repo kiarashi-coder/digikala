@@ -1,5 +1,40 @@
 @import "./Footer.css";
 @import "./Header.css";
+.search-mobile {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.search-mobile-right {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  p {
+    color: rgb(129, 133, 139);
+  }
+}
+
+.bell-mobile {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
 .mini_profile {
   position: relative;
   display: flex;
@@ -69,6 +104,7 @@
   flex-flow: row-reverse nowrap;
   justify-content: space-around;
   align-items: center;
+  gap: 10px;
 }
 
 .services-items {
@@ -76,7 +112,6 @@
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 5px;
   p {
     text-align: center;
     line-height: 22px;
@@ -514,21 +549,6 @@
   min-width: 100px;
 }
 
-.support {
-  border: none;
-  width: 48px;
-  height: 48px;
-  z-index: 10000;
-  border-radius: 50%;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  background-color: rgb(230, 34, 73);
-  svg {
-    color: white;
-  }
-}
-
 .swiper-button-next {
   background-color: white;
   color: black;
@@ -580,6 +600,7 @@
   justify-content: flex-start;
   align-items: center;
   justify-self: flex-start;
+  gap: 5px;
   span {
     font-size: 12px;
   }
@@ -608,7 +629,7 @@ header {
 .read-item {
   width: 90%;
   p {
-    font-size: larger;
+    font-size: 14px;
   }
 }
 .most-sell-items-container {
@@ -732,4 +753,32 @@ header {
 }
 .options {
   display: none;
+}
+
+.support {
+  display: none;
+}
+
+.sticky-footer {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 54px;
+  box-shadow: 0px -1px 2px hsla(0, 0%, 50%, 0.368);
+  z-index: 10000;
+  background-color: white;
+}
+
+.sticky-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: rgb(129, 133, 139);
+  font-family: "Iranyekan regular";
 }
