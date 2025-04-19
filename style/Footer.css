@@ -32,11 +32,13 @@ footer {
   align-items: center;
   column-gap: 10px;
   text-align: center;
+  color: rgb(129, 133, 139);
+  white-space: nowrap;
 }
 
 .totop a:any-link {
   text-decoration: none;
-  color: hsl(0, 0%, 49%);
+  color: rgb(129, 133, 139);
 }
 
 .mobile-footer-links {

@@ -1098,3 +1098,11 @@
   }
   cursor: pointer;
 }
+
+.sticky-footer {
+  display: none;
+}
+
+.mobile-footer-links {
+  display: none;
+}

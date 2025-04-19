@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "Kiarash_jalali",
   "license": "ISC",
-  "description": "Digikala landing page replica project",
+  "description": "Responsive Digikala landing page replica. HTML and CSS only without any framework.",
   "dependencies": {
     "swiper": "^11.2.5"
   }
